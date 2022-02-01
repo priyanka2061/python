@@ -8,9 +8,10 @@ print("delete all string")
 del(str)'''
 # use of silicing
 str1 =" helloworld"
-print(str1[3:7])
-print(str1[:])
-# use of escape squence
+#print(str1[3:7])
+#print(str1[:])
+print(str1[1:6:2])
+''''# use of escape squence
 print("priyanka\n kumari")
 print("priyanka\t kumari")
 print("hello\"wolrd\"")
@@ -21,4 +22,4 @@ str2=" {} {}".format('priyanka','kumari')
 print(str2)
 # positional formatting
 str3=" {2} {0} {1}".format( ' hy','priyanka','kumari' ,)
-print(str3)
+print(str3)'''
